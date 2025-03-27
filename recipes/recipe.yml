@@ -48,3 +48,7 @@ modules:
     nofile-limits: true # increase nofile limits
     brew-analytics: false # disable telemetry
 
+  - type: fonts
+    fonts:
+      nerd-fonts:
+        - JetBrainsMono
