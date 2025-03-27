@@ -3,7 +3,7 @@
 # image will be published to ghcr.io/<user>/<name>
 name: caladan
 # description will be included in the image's metadata
-description: This is my personal OS image.
+description: An opinionated sway-based atomic desktop for developers.
 
 # the base image to build on top of (FROM) and the version tag to use
 base-image: ghcr.io/ublue-os/sericea-main
@@ -36,6 +36,8 @@ modules:
       install:
         - org.mozilla.firefox
         - org.gnome.Loupe
+        - com.github.tchx84.Flatseal
+        - io.github.dvlv.boxbuddyrs
       remove:
         - org.gnome.eog
     user: {} # Also add Flathub user repo, but no user packages
