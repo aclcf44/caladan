@@ -1,0 +1,7 @@
+brew "atuin"
+brew "fd"
+brew "rg"
+brew "fzf"
+brew "lazygit"
+brew "tmux"
+brew "git"
